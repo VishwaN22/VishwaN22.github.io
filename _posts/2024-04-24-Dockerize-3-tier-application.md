@@ -5,7 +5,7 @@ Prerequisites:
 
 Docker installed on your system
 
-![Docker Image](/images/docker1.jpg)
+![Docker Image](_posts/images/docker1.jpg)
 
 
 Step 1: Dockerizing the Backend:
