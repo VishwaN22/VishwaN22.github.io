@@ -7,6 +7,8 @@ Docker installed on your system
 
 ![Docker Image](/docker1.jpg)
 
+<img src="/images/docker1.jpg" alt="Image Alt Text">
+
 
 Step 1: Dockerizing the Backend:
 
