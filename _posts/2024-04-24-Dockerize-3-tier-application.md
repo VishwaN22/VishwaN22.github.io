@@ -5,9 +5,9 @@ Prerequisites:
 
 Docker installed on your system
 
-![Docker Image](/images/docker1.jpg)
+![Docker Image](/CSS/Image/docker1.jpg)
 
-<img src="/images/docker1.jpg" alt="Image 1 Alt Text">
+<img src="/docker1.jpg" alt="Image 1 Alt Text">
 
 
 Step 1: Dockerizing the Backend:
