@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2024-04-25T01:36:38+05:30</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Vishwa’s Blog</title><subtitle>Welcome to my blogsite</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-25T01:11:24+05:30</published><updated>2024-04-25T01:11:24+05:30</updated><id>http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2024-04-25T11:46:57+05:30</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Vishwa’s Blog</title><subtitle>Welcome to my blogsite</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-25T01:11:24+05:30</published><updated>2024-04-25T01:11:24+05:30</updated><id>http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/2024/04/25/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
 
@@ -22,4 +22,76 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Dockerize 3 Tier Application</title><link href="http://localhost:4000/blog/2024/04/24/Dockerize-3-tier-application.html" rel="alternate" type="text/html" title="Dockerize 3 Tier Application" /><published>2024-04-24T00:00:00+05:30</published><updated>2024-04-24T00:00:00+05:30</updated><id>http://localhost:4000/blog/2024/04/24/Dockerize-3-tier-application</id><content type="html" xml:base="http://localhost:4000/blog/2024/04/24/Dockerize-3-tier-application.html"><![CDATA[<p>Introduction:
+In this tutorial, we will dockerize a three-tier application consisting of a backend server, MongoDB database, and frontend interface. Docker allows us to package each component of our application into a container, providing consistency and portability across different environments.</p>
+
+<p>Prerequisites:</p>
+
+<p>Docker installed on your system</p>
+
+<p><img src="docker.jpg" alt="Docker Image" /></p>
+
+<p><img src="/assets/images/docker1.jpg" alt="Image 1 Alt Text" /></p>
+
+<p>Step 1: Dockerizing the Backend:</p>
+
+<p>Create a Dockerfile for your backend application. Here’s an example Dockerfile for a Node.js backend:
+<img src="/images/docker3.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker5.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker7.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker10.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker14.jpg" alt="Docker Image" /></p>
+
+<p>Step 2: Dockerizing MongoDB:</p>
+
+<p><img src="/images/docker11.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker12.jpg" alt="Docker Image" /></p>
+
+<p>Pull the MongoDB official Docker image:</p>
+
+<p>reate a Dockerfile for MongoDB if you need to customize the configuration.
+<img src="/images/docker13.jpg" alt="Docker Image" />
+Step 3: Dockerizing the Frontend:</p>
+
+<p>Create a Dockerfile for your frontend application. Here’s an example Dockerfile for a React frontend:
+<img src="/images/docker15.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker16.jpg" alt="Docker Image" /></p>
+
+<p>Build the Docker image for the frontend:</p>
+
+<p><img src="/images/docker17.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker18.jpg" alt="Docker Image" /></p>
+
+<p>Create a docker-compose.yml file in your project directory:</p>
+
+<p><img src="/images/docker19.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker20.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker21.jpg" alt="Docker Image" /></p>
+
+<p>Step 5: Starting the Application:</p>
+
+<p>Navigate to your project directory containing the docker-compose.yml file.
+Start the application using Docker Compose:</p>
+
+<p>This command will start all three containers (backend, MongoDB, frontend) and link them together as specified in the docker-compose.yml file.</p>
+
+<p>Pushing to DockerHub:
+Login to Docker and execute the following to push image</p>
+
+<p><img src="/images/docker24.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker25.jpg" alt="Docker Image" /></p>
+
+<p><img src="/images/docker27.jpg" alt="Docker Image" /></p>
+
+<p>Conclusion:
+In this tutorial, we learned how to dockerize a three-tier application using Docker and Docker Compose. By containerizing each component of our application, we ensure consistency and ease of deployment across different environments. Docker simplifies the development and deployment process, making it a valuable tool for modern software development.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Introduction: In this tutorial, we will dockerize a three-tier application consisting of a backend server, MongoDB database, and frontend interface. Docker allows us to package each component of our application into a container, providing consistency and portability across different environments. Prerequisites: Docker installed on your system Step 1: Dockerizing the Backend: Create a Dockerfile for your backend application. Here’s an example Dockerfile for a Node.js backend: Step 2: Dockerizing MongoDB: Pull the MongoDB official Docker image: reate a Dockerfile for MongoDB if you need to customize the configuration. Step 3: Dockerizing the Frontend: Create a Dockerfile for your frontend application. Here’s an example Dockerfile for a React frontend: Build the Docker image for the frontend: Create a docker-compose.yml file in your project directory: Step 5: Starting the Application: Navigate to your project directory containing the docker-compose.yml file. Start the application using Docker Compose: This command will start all three containers (backend, MongoDB, frontend) and link them together as specified in the docker-compose.yml file. Pushing to DockerHub: Login to Docker and execute the following to push image Conclusion: In this tutorial, we learned how to dockerize a three-tier application using Docker and Docker Compose. By containerizing each component of our application, we ensure consistency and ease of deployment across different environments. Docker simplifies the development and deployment process, making it a valuable tool for modern software development.]]></summary></entry></feed>
